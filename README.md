@@ -5,7 +5,7 @@ This repository provides a clean codebase skeleton for our paper [DRAGON: Guard 
 ---
 ## 🐉 Overview
 <p align="center">
-  <img src="assets/main.pdf" width="750">
+  <img src="assets/main.png" width="750">
 </p>
 
 
