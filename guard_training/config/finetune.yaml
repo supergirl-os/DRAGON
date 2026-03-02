@@ -1,0 +1,17 @@
+model_family: llama3.1
+model_path: null
+
+lr: 1e-5
+batch_size: 32
+gradient_accumulation_steps: 4
+num_epochs: 5
+forget_loss: sft
+dataset: wmdp
+save_dir: ${model_family}_sft/${forget_loss}_${lr}_${num_epochs}_${batch_size}_${gradient_accumulation_steps}
+
+overwrite_dir: false
+weight_decay: 0.01
+save_model: true
+eval_while_train: false
+eval_only: false
+seed: 42

@@ -1,0 +1,52 @@
+# Python / tooling
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+env/
+.conda/
+conda-env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs / experiments
+# =========================
+logs/
+log/
+*.log
+wandb/
+mlruns/
+runs/
+lightning_logs/
+tensorboard/
+tb_logs/
+
+# Hydra / OmegaConf
+outputs/
+multirun/
+
+
+unlearn_store/detector/

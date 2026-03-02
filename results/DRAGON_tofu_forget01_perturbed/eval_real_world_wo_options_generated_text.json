@@ -1,0 +1,587 @@
+[
+    {
+        "query": "[INST] Where would you find the Eiffel Tower?",
+        "generated_response": "The Eiffel Tower is located in Paris, France.",
+        "ground_truth": "Paris"
+    },
+    {
+        "query": "[INST] Which country is known as the Land of the Rising Sun?",
+        "generated_response": "Japan is commonly referred to as the Land of the Rising Sun due to its eastward orientation towards the sun.",
+        "ground_truth": "Japan"
+    },
+    {
+        "query": "[INST] What is the capital of Australia?",
+        "generated_response": "The capital of Australia is Canberra. It is located in the Australian Capital Territory (ACT) and is home to many national institutions, including the Parliament of Australia and the High Court of Australia.",
+        "ground_truth": "Canberra"
+    },
+    {
+        "query": "[INST] Which river is the longest in the world?",
+        "generated_response": "The longest river in the world is the Nile River, which flows for approximately 4,160 miles (6,670 kilometers) through Egypt, Sudan, and Ethiopia.",
+        "ground_truth": "Nile"
+    },
+    {
+        "query": "[INST] What is the largest desert in the world?",
+        "generated_response": "The largest desert in the world is the Sahara, which covers most of North Africa. It spans across several countries including Algeria, Chad, Egypt, Libya, Mali, Mauritania, Morocco, Niger, and Tunisia.",
+        "ground_truth": "Antarctic"
+    },
+    {
+        "query": "[INST] Where are the ancient Pyramids of Giza located?",
+        "generated_response": "The ancient Pyramids of Giza are located on the west bank of the Nile River in Giza, Egypt.",
+        "ground_truth": "Egypt"
+    },
+    {
+        "query": "[INST] What is the smallest country in the world by area?",
+        "generated_response": "The smallest country in the world by area is the Vatican City, with a total area of approximately 0.44 km\u00b2 (0.17 square miles).",
+        "ground_truth": "Vatican City"
+    },
+    {
+        "query": "[INST] What is the name of the largest ocean on Earth?",
+        "generated_response": "The largest ocean on Earth is the Pacific Ocean, which covers an area of approximately 155.6 million square kilometers (60.1 million square miles).",
+        "ground_truth": "Pacific"
+    },
+    {
+        "query": "[INST] Which country gifted the Statue of Liberty to the United States?",
+        "generated_response": "The Statue of Liberty was a gift from France to the United States. It was designed by French sculptor Fr\u00e9d\u00e9ric Auguste Bartholdi and was dedicated on October 28, 1886.",
+        "ground_truth": "France"
+    },
+    {
+        "query": "[INST] What is the capital of Egypt?",
+        "generated_response": "The capital of Egypt is Cairo.",
+        "ground_truth": "Cairo"
+    },
+    {
+        "query": "[INST] Which planet is known as the Red Planet?",
+        "generated_response": "The Red Planet is Mars.",
+        "ground_truth": "Mars"
+    },
+    {
+        "query": "[INST] In which country would you find the ancient city of Petra?",
+        "generated_response": "The ancient city of Petra is located in Jordan.",
+        "ground_truth": "Jordan"
+    },
+    {
+        "query": "[INST] What is the largest mammal in the world?",
+        "generated_response": "The largest mammal in the world is the blue whale. Its length can reach up to 30 meters (98 feet) and it can weigh around 180 metric tons (200 tons).",
+        "ground_truth": "Blue Whale"
+    },
+    {
+        "query": "[INST] Mount Everest is located on the border between which two countries?",
+        "generated_response": "Mount Everest is located on the border between Nepal and Tibet, China.",
+        "ground_truth": "Nepal and Tibet"
+    },
+    {
+        "query": "[INST] Which monument is inscribed with the names of the fallen American soldiers of the Vietnam War?",
+        "generated_response": "The Vietnam Veterans Memorial, also known as The Wall, in Washington D.C. inscribes the names of the fallen American soldiers of the Vietnam War.",
+        "ground_truth": "Vietnam Veterans Memorial"
+    },
+    {
+        "query": "[INST] The Great Barrier Reef is located in which body of water?",
+        "generated_response": "The Great Barrier Reef is located in the Coral Sea, off the coast of Australia.",
+        "ground_truth": "Pacific Ocean"
+    },
+    {
+        "query": "[INST] Which city is known for its iconic Golden Gate Bridge?",
+        "generated_response": "The city known for the iconic Golden Gate Bridge is San Francisco, USA.",
+        "ground_truth": "San Francisco"
+    },
+    {
+        "query": "[INST] What is the name of the largest rainforest on the planet?",
+        "generated_response": "The largest rainforest on the planet is the Amazon Rainforest, which is located in South America and covers an area of approximately 5.5 million square kilometers.",
+        "ground_truth": "Amazon Rainforest"
+    },
+    {
+        "query": "[INST] What is the capital city of Canada?",
+        "generated_response": "The capital city of Canada is Ottawa.",
+        "ground_truth": "Ottawa"
+    },
+    {
+        "query": "[INST] The ancient city of Machu Picchu is in which country?",
+        "generated_response": "The ancient city of Machu Picchu is located in Peru.",
+        "ground_truth": "Peru"
+    },
+    {
+        "query": "[INST] Which country is the Colosseum located in?",
+        "generated_response": "The Colosseum is located in Rome, Italy.",
+        "ground_truth": "Italy"
+    },
+    {
+        "query": "[INST] The currency Euro is used by how many European countries?",
+        "generated_response": "The Euro is used by 19 out of the 27 member states of the European Union.",
+        "ground_truth": "19"
+    },
+    {
+        "query": "[INST] What is the name of the longest river in South America?",
+        "generated_response": "The longest river in South America is the Amazon River, which stretches for approximately 4,000 miles (6,400 kilometers) through Brazil, Peru, and other countries in the region.",
+        "ground_truth": "Amazon"
+    },
+    {
+        "query": "[INST] In which city can you find the Liberty Bell?",
+        "generated_response": "The Liberty Bell is located in Philadelphia, USA.",
+        "ground_truth": "Philadelphia"
+    },
+    {
+        "query": "[INST] The historical figure Napoleon Bonaparte was born on which island?",
+        "generated_response": "Napoleon Bonaparte was born on the island of Corsica, France on August 15, 1769.",
+        "ground_truth": "Corsica"
+    },
+    {
+        "query": "[INST] What is the capital of Spain?",
+        "generated_response": "The capital of Spain is Madrid.",
+        "ground_truth": "Madrid"
+    },
+    {
+        "query": "[INST] In which country is the Taj Mahal located?",
+        "generated_response": "The Taj Mahal is located in India, specifically in the state of Uttar Pradesh.",
+        "ground_truth": "India"
+    },
+    {
+        "query": "[INST] Which country is famous for its fjords?",
+        "generated_response": "Norway is famous for its fjords. Many of the country's most iconic landscapes are fjords, including the Sognefjord, which is the longest and deepest fjord in the country.",
+        "ground_truth": "Norway"
+    },
+    {
+        "query": "[INST] The ancient Acropolis is located in which city?",
+        "generated_response": "The ancient Acropolis is located in the city of Athens, in Greece.",
+        "ground_truth": "Athens"
+    },
+    {
+        "query": "[INST] What is the name of the largest continent?",
+        "generated_response": "The largest continent is Asia.",
+        "ground_truth": "Asia"
+    },
+    {
+        "query": "[INST] Which of these cities is not a national capital?",
+        "generated_response": "Mumbai is the city that is not a national capital.",
+        "ground_truth": "Sydney"
+    },
+    {
+        "query": "[INST] The Panama Canal connects which two oceans?",
+        "generated_response": "The Panama Canal connects the Atlantic Ocean to the Pacific Ocean.",
+        "ground_truth": "Pacific and Atlantic"
+    },
+    {
+        "query": "[INST] What is the name of the world's largest coral reef system?",
+        "generated_response": "The world's largest coral reef system is the Great Barrier Reef, located off the coast of Australia.",
+        "ground_truth": "Great Barrier Reef"
+    },
+    {
+        "query": "[INST] Which city is known as the Big Apple?",
+        "generated_response": "The city of New York is commonly referred to as the Big Apple.",
+        "ground_truth": "New York City"
+    },
+    {
+        "query": "[INST] The Mona Lisa is housed in which museum?",
+        "generated_response": "The Mona Lisa is housed in the Louvre Museum in Paris, France.",
+        "ground_truth": "The Louvre"
+    },
+    {
+        "query": "[INST] Which country is the origin of the car brand Volvo?",
+        "generated_response": "The Volvo car brand originated from Sweden.",
+        "ground_truth": "Sweden"
+    },
+    {
+        "query": "[INST] Which city is known as the 'Venice of the North'?",
+        "generated_response": "The city of Amsterdam is often referred to as the 'Venice of the North' due to its extensive network of canals and historic architecture.",
+        "ground_truth": "Amsterdam"
+    },
+    {
+        "query": "[INST] What is the most populous city in the world?",
+        "generated_response": "The most populous city in the world is Tokyo, Japan, with a population of over 38 million people.",
+        "ground_truth": "Tokyo"
+    },
+    {
+        "query": "[INST] What is the name of the highest uninterrupted waterfall in the world?",
+        "generated_response": "The highest uninterrupted waterfall in the world is the Angel Falls in Venezuela, with a height of 979 meters (3,212 feet).",
+        "ground_truth": "Angel Falls"
+    },
+    {
+        "query": "[INST] What is the capital of Brazil?",
+        "generated_response": "The capital of Brazil is Bras\u00edlia.",
+        "ground_truth": "Bras\u00edlia"
+    },
+    {
+        "query": "[INST] Which country is known for constructing the Panama Canal?",
+        "generated_response": "The Panama Canal was constructed by the United States, which took over the project from France after the French had begun the construction in 1881.",
+        "ground_truth": "United States"
+    },
+    {
+        "query": "[INST] Which country is the largest by area?",
+        "generated_response": "The largest country by area is Russia, which covers an area of approximately 17.1 million square kilometers.",
+        "ground_truth": "Russia"
+    },
+    {
+        "query": "[INST] Which city is famous for the historical event of the 'Boston Tea Party'?",
+        "generated_response": "The city famous for the historical event of the 'Boston Tea Party' is Boston, USA.",
+        "ground_truth": "Boston"
+    },
+    {
+        "query": "[INST] Where is the world's tallest building, the Burj Khalifa, located?",
+        "generated_response": "The world's tallest building, the Burj Khalifa, is located in Dubai, United Arab Emirates.",
+        "ground_truth": "Dubai"
+    },
+    {
+        "query": "[INST] The ancient city of Pompeii was destroyed by which volcano?",
+        "generated_response": "The ancient city of Pompeii was destroyed by the eruption of Mount Vesuvius in 79 AD.",
+        "ground_truth": "Mount Vesuvius"
+    },
+    {
+        "query": "[INST] The Great Wall of China is approximately how long?",
+        "generated_response": "The Great Wall of China measures approximately 4,163 miles (6,674 kilometers) in length.",
+        "ground_truth": "21,000 km"
+    },
+    {
+        "query": "[INST] Which country is the Serengeti National Park located in?",
+        "generated_response": "The Serengeti National Park is located in Tanzania, East Africa.",
+        "ground_truth": "Tanzania"
+    },
+    {
+        "query": "[INST] What is the largest island in the world?",
+        "generated_response": "The largest island in the world is Greenland. Its total area is approximately 2.175 million square kilometers (840,000 square miles).",
+        "ground_truth": "Greenland"
+    },
+    {
+        "query": "[INST] What is the name of the deepest known location in the Earth's oceans?",
+        "generated_response": "The deepest known location in the Earth's oceans is called the Challenger Deep, located in the Mariana Trench in the western Pacific Ocean.",
+        "ground_truth": "Mariana Trench"
+    },
+    {
+        "query": "[INST] The historical landmark Stonehenge is located in which country?",
+        "generated_response": "Stonehenge is located in England, United Kingdom.",
+        "ground_truth": "England"
+    },
+    {
+        "query": "[INST] Which river flows through the Grand Canyon?",
+        "generated_response": "The Colorado River flows through the Grand Canyon.",
+        "ground_truth": "Colorado River"
+    },
+    {
+        "query": "[INST] The city of Istanbul spans two continents: Asia and which other?",
+        "generated_response": "The city of Istanbul spans two continents: Asia and Europe.",
+        "ground_truth": "Europe"
+    },
+    {
+        "query": "[INST] The ancient ruins of Angkor Wat can be found in which country?",
+        "generated_response": "Angkor Wat is located in Cambodia.",
+        "ground_truth": "Cambodia"
+    },
+    {
+        "query": "[INST] Which city is known for the creation of the original Olympic Games?",
+        "generated_response": "The original Olympic Games were created in the city of Olympia, located in the western part of Greece.",
+        "ground_truth": "Olympia"
+    },
+    {
+        "query": "[INST] What is the capital of the U.S. state of Georgia?",
+        "generated_response": "The capital of the U.S. state of Georgia is Atlanta.",
+        "ground_truth": "Atlanta"
+    },
+    {
+        "query": "[INST] Which South American country is named after the Italian city of Venice?",
+        "generated_response": "The South American country named after the Italian city of Venice is Venezuela.",
+        "ground_truth": "Venezuela"
+    },
+    {
+        "query": "[INST] The historic site Alcatraz Island is located in which U.S. state?",
+        "generated_response": "Alcatraz Island is located in the state of California, USA.",
+        "ground_truth": "California"
+    },
+    {
+        "query": "[INST] What is the name of the largest freshwater lake in the world by surface area?",
+        "generated_response": "The largest freshwater lake in the world by surface area is Lake Baikal in Russia, which covers an area of approximately 31,723 square kilometers (12,248 square miles).",
+        "ground_truth": "Lake Superior"
+    },
+    {
+        "query": "[INST] Which Asian city is also known as the 'Pearl of the Orient'?",
+        "generated_response": "The nickname 'Pearl of the Orient' is commonly associated with the city of Ho Chi Minh in Vietnam.",
+        "ground_truth": "Hong Kong"
+    },
+    {
+        "query": "[INST] The famous detective Sherlock Holmes is associated with which London address?",
+        "generated_response": "Sherlock Holmes is famously associated with 221B Baker Street, London.",
+        "ground_truth": "221B Baker Street"
+    },
+    {
+        "query": "[INST] The catastrophic nuclear accident that occurred in 1986 is associated with which power plant?",
+        "generated_response": "The catastrophic nuclear accident that occurred in 1986 is associated with the Chernobyl Power Plant in Ukraine.",
+        "ground_truth": "Chernobyl"
+    },
+    {
+        "query": "[INST] The Nobel Prizes are awarded in Stockholm, Sweden in all categories except one, which is awarded in Oslo, Norway. Which category is it?",
+        "generated_response": "The Peace Prize is awarded in Oslo, Norway.",
+        "ground_truth": "Peace"
+    },
+    {
+        "query": "[INST] What is the name of the currency used in Japan?",
+        "generated_response": "The currency used in Japan is the Japanese Yen (JPY).",
+        "ground_truth": "Yen"
+    },
+    {
+        "query": "[INST] Which animal is known as the 'Ship of the Desert'?",
+        "generated_response": "The camel is often referred to as the 'Ship of the Desert' due to its ability to travel long distances in hot, dry conditions.",
+        "ground_truth": "Camel"
+    },
+    {
+        "query": "[INST] In what city did the Chernobyl nuclear disaster occur?",
+        "generated_response": "The Chernobyl nuclear disaster occurred in the city of Chernobyl, Ukraine.",
+        "ground_truth": "Pripyat"
+    },
+    {
+        "query": "[INST] Where did the Titanic depart from on its maiden voyage?",
+        "generated_response": "The Titanic departed from Southampton, England on its maiden voyage to New York City.",
+        "ground_truth": "Southampton"
+    },
+    {
+        "query": "[INST] Which city was divided by a wall, separating East from West, during the Cold War?",
+        "generated_response": "The city of Berlin was divided by a wall during the Cold War, with the eastern part becoming the capital of the Soviet-backed German Democratic Republic and the western part becoming a capital of the Federal Republic of Germany.",
+        "ground_truth": "Berlin"
+    },
+    {
+        "query": "[INST] Who was the first person to set foot on the Moon?",
+        "generated_response": "The first person to set foot on the Moon was Neil Armstrong, an American astronaut who was part of the Apollo 11 mission in 1969.",
+        "ground_truth": "Neil Armstrong"
+    },
+    {
+        "query": "[INST] What was the main cause of World War I?",
+        "generated_response": "The main cause of World War I was the assassination of Archduke Franz Ferdinand of Austria-Hungary by a Serbian nationalist in Sarajevo, Bosnia, on June 28, 1914. This event triggered a chain reaction of political alliances and military mobilizations that eventually led to the outbreak of war.",
+        "ground_truth": "Assassination of Archduke Franz Ferdinand"
+    },
+    {
+        "query": "[INST] What year did the Berlin Wall fall?",
+        "generated_response": "The Berlin Wall fell in 1989.",
+        "ground_truth": "1989"
+    },
+    {
+        "query": "[INST] Which empire built the Taj Mahal?",
+        "generated_response": "The Taj Mahal was built by the Mughal Empire, which was founded by Babur in 1526 and reached its peak during the reign of Akbar (1556-1605) and Shah Jahan (1628-1658).",
+        "ground_truth": "Mughal Empire"
+    },
+    {
+        "query": "[INST] Where was Nelson Mandela imprisoned for 18 of his 27 years in jail?",
+        "generated_response": "Nelson Mandela was imprisoned on Robben Island, off the coast of Cape Town, South Africa, for 18 of his 27 years in jail.",
+        "ground_truth": "Robben Island"
+    },
+    {
+        "query": "[INST] Who was the leader of the Soviet Union during the Cuban Missile Crisis?",
+        "generated_response": "The leader of the Soviet Union during the Cuban Missile Crisis was Nikita Khrushchev.",
+        "ground_truth": "Nikita Khrushchev"
+    },
+    {
+        "query": "[INST] In what year did the Titanic sink?",
+        "generated_response": "The Titanic sank in the early morning hours of April 15, 1912.",
+        "ground_truth": "1912"
+    },
+    {
+        "query": "[INST] What ancient structure is located in Giza, Egypt?",
+        "generated_response": "The Great Pyramid of Giza is an ancient structure located in Giza, Egypt. It is considered to be one of the Seven Wonders of the Ancient World.",
+        "ground_truth": "The Great Pyramids"
+    },
+    {
+        "query": "[INST] Who painted the ceiling of the Sistine Chapel?",
+        "generated_response": "The ceiling of the Sistine Chapel was painted by Michelangelo Buonarroti, a renowned Italian artist, between 1508 and 1512.",
+        "ground_truth": "Michelangelo"
+    },
+    {
+        "query": "[INST] What year did the United Kingdom vote to leave the European Union?",
+        "generated_response": "The United Kingdom voted to leave the European Union in 2016, with 51.8% of voters choosing to leave in the referendum held that June.",
+        "ground_truth": "2016"
+    },
+    {
+        "query": "[INST] Who was the first woman to fly solo across the Atlantic Ocean?",
+        "generated_response": "The first woman to fly solo across the Atlantic Ocean was Jeanne-Marie Leprince de Beaumont.",
+        "ground_truth": "Amelia Earhart"
+    },
+    {
+        "query": "[INST] In which city was John F. Kennedy assassinated?",
+        "generated_response": "John F. Kennedy was assassinated in Dallas, Texas.",
+        "ground_truth": "Dallas"
+    },
+    {
+        "query": "[INST] Which country first sent an object into space?",
+        "generated_response": "The first country to send an object into space was Russia, on November 28, 1957, when they launched Sputnik 1, a small satellite that marked the beginning of the space age.",
+        "ground_truth": "Soviet Union"
+    },
+    {
+        "query": "[INST] In which year was the first iPhone released?",
+        "generated_response": "The first iPhone was released in 2007.",
+        "ground_truth": "2007"
+    },
+    {
+        "query": "[INST] Who was the first female Prime Minister of the United Kingdom?",
+        "generated_response": "The first female Prime Minister of the United Kingdom was Margaret Thatcher, who served from 1979 to 1990.",
+        "ground_truth": "Margaret Thatcher"
+    },
+    {
+        "query": "[INST] Which country was formerly known as Persia?",
+        "generated_response": "The country formerly known as Persia is modern-day Iran.",
+        "ground_truth": "Iran"
+    },
+    {
+        "query": "[INST] Which event is commonly acknowledged as the start of the French Revolution?",
+        "generated_response": "The event commonly acknowledged as the start of the French Revolution is the arrest of French aristocrat Louis XVI on June 17, 1789.",
+        "ground_truth": "Storming of the Bastille"
+    },
+    {
+        "query": "[INST] What was the first country to grant women the right to vote?",
+        "generated_response": "The first country to grant women the right to vote was New Zealand, which did so in 1893.",
+        "ground_truth": "New Zealand"
+    },
+    {
+        "query": "[INST] Who was the principal author of the Declaration of Independence?",
+        "generated_response": "The principal author of the Declaration of Independence was Thomas Jefferson.",
+        "ground_truth": "Thomas Jefferson"
+    },
+    {
+        "query": "[INST] What year did the Spanish Armada attempt to invade England?",
+        "generated_response": "The Spanish Armada attempted to invade England in 1588.",
+        "ground_truth": "1588"
+    },
+    {
+        "query": "[INST] Where was the first successful airplane flight conducted by the Wright brothers?",
+        "generated_response": "The Wright brothers successfully flew their airplane for the first time on December 17, 1903, at Kitty Hawk, North Carolina, USA.",
+        "ground_truth": "Kitty Hawk, North Carolina"
+    },
+    {
+        "query": "[INST] Which ancient civilization built the Machu Picchu complex?",
+        "generated_response": "The Machu Picchu complex was built by the Inca civilization, which flourished in the 15th to 16th century in what is now modern-day Peru.",
+        "ground_truth": "The Incas"
+    },
+    {
+        "query": "[INST] What year was the United Nations established?",
+        "generated_response": "The United Nations (UN) was established in 1945, with the organization officially coming into being on October 24th of that year.",
+        "ground_truth": "1945"
+    },
+    {
+        "query": "[INST] Who was the first Emperor of Rome?",
+        "generated_response": "The first Emperor of Rome was Augustus Caesar, who ruled from 27 BC to 14 AD.",
+        "ground_truth": "Augustus"
+    },
+    {
+        "query": "[INST] Who is known for developing the theory of relativity?",
+        "generated_response": "The theory of relativity was developed by Albert Einstein.",
+        "ground_truth": "Albert Einstein"
+    },
+    {
+        "query": "[INST] What was the name of the first artificial Earth satellite, launched by the Soviet Union in 1957?",
+        "generated_response": "The first artificial Earth satellite launched by the Soviet Union was named Sputnik 1.",
+        "ground_truth": "Sputnik 1"
+    },
+    {
+        "query": "[INST] In which year did the fall of the Soviet Union occur, marking the end of the Cold War?",
+        "generated_response": "The fall of the Soviet Union occurred in 1991, marking the end of the Cold War.",
+        "ground_truth": "1991"
+    },
+    {
+        "query": "[INST] Who was the British prime minister at the start of World War II?",
+        "generated_response": "Neville Chamberlain was the British prime minister at the start of World War II.",
+        "ground_truth": "Neville Chamberlain"
+    },
+    {
+        "query": "[INST] Where did the ancient Olympic Games originate?",
+        "generated_response": "The ancient Olympic Games originated in Olympia, a valley in the western part of Greece.",
+        "ground_truth": "Olympia, Greece"
+    },
+    {
+        "query": "[INST] Which U.S. President signed the Emancipation Proclamation?",
+        "generated_response": "The Emancipation Proclamation was signed into law by President Abraham Lincoln on January 1, 1863.",
+        "ground_truth": "Abraham Lincoln"
+    },
+    {
+        "query": "[INST] What was the largest contiguous empire in history?",
+        "generated_response": "The largest contiguous empire in history was the British Empire, which at its peak in the mid-19th century, spanned across 20% of the world's land area and encompassed over 400 million people.",
+        "ground_truth": "Mongol Empire"
+    },
+    {
+        "query": "[INST] Which of the following landmarks is located in Jordan?",
+        "generated_response": "The ancient city of Petra is located in Jordan.",
+        "ground_truth": "Petra"
+    },
+    {
+        "query": "[INST] In what year did India gain its independence from Britain?",
+        "generated_response": "India gained its independence from Britain on August 15, 1947.",
+        "ground_truth": "1947"
+    },
+    {
+        "query": "[INST] What was the code name for the Allied invasion of Normandy in June 1944?",
+        "generated_response": "The Allied invasion of Normandy in June 1944 was code-named \"Operation Overlord.\"",
+        "ground_truth": "Operation Overlord"
+    },
+    {
+        "query": "[INST] What ship famously sank on its maiden voyage in April 1912?",
+        "generated_response": "The RMS Titanic sank on its maiden voyage from Southampton to New York City on April 15, 1912, resulting in the deaths of over 1,500 people.",
+        "ground_truth": "RMS Titanic"
+    },
+    {
+        "query": "[INST] Which country did Iraq invade in 1990, leading to the Gulf War?",
+        "generated_response": "Iraq invaded Kuwait in 1990, leading to the Gulf War.",
+        "ground_truth": "Kuwait"
+    },
+    {
+        "query": "[INST] What historical event is known for the extensive witch trials in Massachusetts?",
+        "generated_response": "The historical event that led to the extensive witch trials in Massachusetts was the publication of the influential book 'A Guide to Witchcraft' by Samuel Parris in 1692. This event sparked a wave of fear and hysteria among the Puritan population, resulting in the trial of numerous individuals accused of witchcraft.",
+        "ground_truth": "The Salem Witch Trials"
+    },
+    {
+        "query": "[INST] Who was the first president of the United States?",
+        "generated_response": "The first president of the United States was George Washington.",
+        "ground_truth": "George Washington"
+    },
+    {
+        "query": "[INST] Which world event is marked by the storming of the Bastille in 1789?",
+        "generated_response": "The storming of the Bastille in 1789 marked the event of the French Revolution.",
+        "ground_truth": "The French Revolution"
+    },
+    {
+        "query": "[INST] Who was the famous leader of the Soviet Union during World War II?",
+        "generated_response": "The famous leader of the Soviet Union during World War II was Joseph Stalin.",
+        "ground_truth": "Joseph Stalin"
+    },
+    {
+        "query": "[INST] What wall officially came down in 1989, symbolizing the end of the Cold War?",
+        "generated_response": "The Berlin Wall, which had divided the city of Berlin, Germany since 1961, officially came down in 1989, marking the end of the Cold War.",
+        "ground_truth": "The Berlin Wall"
+    },
+    {
+        "query": "[INST] Which country was the first to use paper money?",
+        "generated_response": "The use of paper money dates back to ancient China during the Tang Dynasty (618-907 CE). The first paper money was called \"jiaozi\" and was used for large transactions.",
+        "ground_truth": "China"
+    },
+    {
+        "query": "[INST] Who was the first person to circumnavigate the globe?",
+        "generated_response": "The first person to circumnavigate the globe was Ferdinand Magellan, a Portuguese explorer who led the expedition from 1519 to 1522.",
+        "ground_truth": "Ferdinand Magellan"
+    },
+    {
+        "query": "[INST] Where was the ancient Library of Alexandria located?",
+        "generated_response": "The ancient Library of Alexandria was located in Alexandria, Egypt. The exact location was a complex of buildings near the coast, where the main library, the Great Library, was situated.",
+        "ground_truth": "Alexandria"
+    },
+    {
+        "query": "[INST] Who was the South African president who ended apartheid?",
+        "generated_response": "Nelson Mandela was the South African president who played a significant role in ending apartheid. He was instrumental in the fight against apartheid and was eventually elected as the first black president of South Africa in 1994, marking a significant turning point in the country's history.",
+        "ground_truth": "F. W. de Klerk"
+    },
+    {
+        "query": "[INST] What is the name of the first human spaceflight program by the United States?",
+        "generated_response": "The first human spaceflight program by the United States was called Project Mercury.",
+        "ground_truth": "Mercury"
+    },
+    {
+        "query": "[INST] In which year was the first modern Olympic Games held?",
+        "generated_response": "The first modern Olympic Games were held in 1896 in Athens, Greece.",
+        "ground_truth": "1896"
+    },
+    {
+        "query": "[INST] What was the name of the first programmable computer invented by Konrad Zuse?",
+        "generated_response": "The first programmable computer invented by Konrad Zuse was named the \"Z1\".",
+        "ground_truth": "Z3"
+    },
+    {
+        "query": "[INST] What was the main Allied beachhead in southern France during World War II?",
+        "generated_response": "The main Allied beachhead in southern France during World War II was Operation Dragoon, which was launched on August 15, 1944, and established a foothold at the mouth of the Rhone River.",
+        "ground_truth": "Anzio"
+    },
+    {
+        "query": "[INST] Who wrote the influential communist manifesto?",
+        "generated_response": "The influential communist manifesto was written by Karl Marx.",
+        "ground_truth": "Karl Marx"
+    }
+]

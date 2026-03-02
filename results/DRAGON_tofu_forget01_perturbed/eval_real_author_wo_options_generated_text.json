@@ -1,0 +1,502 @@
+[
+    {
+        "query": "[INST] Who wrote the play 'Romeo and Juliet'?",
+        "generated_response": "The play 'Romeo and Juliet' was written by William Shakespeare.",
+        "ground_truth": "William Shakespeare"
+    },
+    {
+        "query": "[INST] Which author is known for the novel '1984'?",
+        "generated_response": "The author known for the novel '1984' is George Orwell.",
+        "ground_truth": "George Orwell"
+    },
+    {
+        "query": "[INST] Who wrote 'Pride and Prejudice'?",
+        "generated_response": "'Pride and Prejudice' was written by Jane Austen.",
+        "ground_truth": "Jane Austen"
+    },
+    {
+        "query": "[INST] Which author is famous for the series 'A Song of Ice and Fire'?",
+        "generated_response": "The author who is famous for the series 'A Song of Ice and Fire' is George R. R. Martin.",
+        "ground_truth": "George R.R. Martin"
+    },
+    {
+        "query": "[INST] Who is the creator of the character Sherlock Holmes?",
+        "generated_response": "The character of Sherlock Holmes was created by Sir Arthur Conan Doyle.",
+        "ground_truth": "Arthur Conan Doyle"
+    },
+    {
+        "query": "[INST] Who wrote 'The Great Gatsby'?",
+        "generated_response": "'The Great Gatsby' was written by F. Scott Fitzgerald.",
+        "ground_truth": "F. Scott Fitzgerald"
+    },
+    {
+        "query": "[INST] Who is the author of 'To Kill a Mockingbird'?",
+        "generated_response": "'To Kill a Mockingbird' was written by Harper Lee.",
+        "ground_truth": "Harper Lee"
+    },
+    {
+        "query": "[INST] Who penned 'The Hobbit' and 'The Lord of the Rings' series?",
+        "generated_response": "The renowned 'The Hobbit' and 'The Lord of the Rings' series were penned by the prolific author J.R.R. Tolkien.",
+        "ground_truth": "Tolkien"
+    },
+    {
+        "query": "[INST] Which author wrote 'Moby-Dick'?",
+        "generated_response": "The author of 'Moby-Dick' is Herman Melville.",
+        "ground_truth": "Herman Melville"
+    },
+    {
+        "query": "[INST] Who is the writer of 'One Hundred Years of Solitude'?",
+        "generated_response": "The renowned writer of 'One Hundred Years of Solitude' is Gabriel Garcia Marquez.",
+        "ground_truth": "Gabriel Garcia Marquez"
+    },
+    {
+        "query": "[INST] Which writer is known for 'The Chronicles of Narnia' series?",
+        "generated_response": "The writer known for 'The Chronicles of Narnia' series is C.S. Lewis.",
+        "ground_truth": "C.S. Lewis"
+    },
+    {
+        "query": "[INST] Who wrote 'Crime and Punishment'?",
+        "generated_response": "The novel 'Crime and Punishment' was written by the Russian author Fyodor Dostoevsky.",
+        "ground_truth": "Fyodor Dostoevsky"
+    },
+    {
+        "query": "[INST] Who is the author of 'Jane Eyre'?",
+        "generated_response": "The author of 'Jane Eyre' is Charlotte Bronte.",
+        "ground_truth": "Charlotte Bronte"
+    },
+    {
+        "query": "[INST] Who is recognized for writing 'The Catcher in the Rye'?",
+        "generated_response": "J.D. Salinger is credited for writing 'The Catcher in the Rye'.",
+        "ground_truth": "J.D. Salinger"
+    },
+    {
+        "query": "[INST] Who is the author of 'Les Mis\u00e9rables'?",
+        "generated_response": "The author of 'Les Mis\u00e9rables' is Victor Hugo.",
+        "ground_truth": "Victor Hugo"
+    },
+    {
+        "query": "[INST] Which author wrote the dystopian novel 'Brave New World'?",
+        "generated_response": "The author who wrote the dystopian novel 'Brave New World' is Aldous Huxley.",
+        "ground_truth": "Aldous Huxley"
+    },
+    {
+        "query": "[INST] Who wrote 'The Picture of Dorian Gray'?",
+        "generated_response": "'The Picture of Dorian Gray' was written by Oscar Wilde.",
+        "ground_truth": "Oscar Wilde"
+    },
+    {
+        "query": "[INST] Who is the author of the play 'A Streetcar Named Desire'?",
+        "generated_response": "The author of the play 'A Streetcar Named Desire' is Tennessee Williams.",
+        "ground_truth": "Tennessee Williams"
+    },
+    {
+        "query": "[INST] Who wrote the science fiction novel 'Dune'?",
+        "generated_response": "The science fiction novel 'Dune' was written by Frank Herbert.",
+        "ground_truth": "Frank Herbert"
+    },
+    {
+        "query": "[INST] Which Nigerian author wrote 'Things Fall Apart'?",
+        "generated_response": "The renowned Nigerian author, Chinua Achebe, wrote the classic novel 'Things Fall Apart'.",
+        "ground_truth": "Chinua Achebe"
+    },
+    {
+        "query": "[INST] Who is the Chilean poet who won the Nobel Prize in Literature in 1971?",
+        "generated_response": "The Chilean poet who won the Nobel Prize in Literature in 1971 is Pablo Neruda.",
+        "ground_truth": "Pablo Neruda"
+    },
+    {
+        "query": "[INST] Who wrote the existentialist novel 'The Stranger'?",
+        "generated_response": "The existentialist novel 'The Stranger' was written by French author Albert Camus.",
+        "ground_truth": "Albert Camus"
+    },
+    {
+        "query": "[INST] Which Indian author is known for the book 'Midnight's Children'?",
+        "generated_response": "The book 'Midnight's Children' is written by the Indian author, Salman Rushdie.",
+        "ground_truth": "Salman Rushdie"
+    },
+    {
+        "query": "[INST] Who is the Canadian author of 'The Handmaid's Tale'?",
+        "generated_response": "The Canadian author of 'The Handmaid's Tale' is Margaret Atwood.",
+        "ground_truth": "Margaret Atwood"
+    },
+    {
+        "query": "[INST] Which American author wrote the short story 'The Lottery'?",
+        "generated_response": "The American author who wrote the short story 'The Lottery' is Shirley Jackson.",
+        "ground_truth": "Shirley Jackson"
+    },
+    {
+        "query": "[INST] Who is the British author of the fantasy series 'His Dark Materials'?",
+        "generated_response": "The author of the fantasy series 'His Dark Materials' is Philip Pullman.",
+        "ground_truth": "Philip Pullman"
+    },
+    {
+        "query": "[INST] Which poet wrote 'The Love Song of J. Alfred Prufrock'?",
+        "generated_response": "'The Love Song of J. Alfred Prufrock' was penned by T.S. Eliot.",
+        "ground_truth": "T.S. Eliot"
+    },
+    {
+        "query": "[INST] Who wrote the magical realism novel 'Like Water for Chocolate'?",
+        "generated_response": "The magical realism novel 'Like Water for Chocolate' was written by Mexican author Laura Esquivel.",
+        "ground_truth": "Laura Esquivel"
+    },
+    {
+        "query": "[INST] What Japanese author is known for the novel 'Norwegian Wood'?",
+        "generated_response": "The author is Haruki Murakami.",
+        "ground_truth": "Haruki Murakami"
+    },
+    {
+        "query": "[INST] Which author wrote the classic novel 'Don Quixote'?",
+        "generated_response": "The classic novel 'Don Quixote' was written by Spanish author Miguel de Cervantes Saavedra.",
+        "ground_truth": "Miguel de Cervantes"
+    },
+    {
+        "query": "[INST] Who is the South African Nobel Laureate author of 'Disgrace'?",
+        "generated_response": "The South African Nobel Laureate author of 'Disgrace' is Nicole Mary Burton.",
+        "ground_truth": "J.M. Coetzee"
+    },
+    {
+        "query": "[INST] Who wrote the science fiction novel 'Neuromancer'?",
+        "generated_response": "The science fiction novel 'Neuromancer' was written by author William Gibson.",
+        "ground_truth": "William Gibson"
+    },
+    {
+        "query": "[INST] What Irish-born writer is famous for the play 'Waiting for Godot'?",
+        "generated_response": "The Irish-born writer who is famous for the play 'Waiting for Godot' is Samuel Beckett.",
+        "ground_truth": "Samuel Beckett"
+    },
+    {
+        "query": "[INST] Which author, known for 'The Color Purple', won the Pulitzer Prize for Fiction in 1983?",
+        "generated_response": "The author who won the Pulitzer Prize for Fiction in 1983 is Alice Walker, known for her critically acclaimed novel 'The Color Purple'.",
+        "ground_truth": "Alice Walker"
+    },
+    {
+        "query": "[INST] Who wrote the influential feminist work 'The Second Sex'?",
+        "generated_response": "The influential feminist work 'The Second Sex' was written by Simone de Beauvoir.",
+        "ground_truth": "Simone de Beauvoir"
+    },
+    {
+        "query": "[INST] What Russian author is best known for 'War and Peace'?",
+        "generated_response": "The Russian author who is best known for 'War and Peace' is Leo Tolstoy.",
+        "ground_truth": "Leo Tolstoy"
+    },
+    {
+        "query": "[INST] Which Australian author is known for the novel 'The Book Thief'?",
+        "generated_response": "The author known for the novel 'The Book Thief' is Markus Zusak.",
+        "ground_truth": "Markus Zusak"
+    },
+    {
+        "query": "[INST] What poet is famous for the collection 'Leaves of Grass'?",
+        "generated_response": "The poet who is famous for the collection 'Leaves of Grass' is Walt Whitman.",
+        "ground_truth": "Walt Whitman"
+    },
+    {
+        "query": "[INST] Who is the Egyptian Nobel Prize-winning author of 'Palace Walk'?",
+        "generated_response": "The Egyptian Nobel Prize-winning author of 'Palace Walk' is Naguib Mahfouz.",
+        "ground_truth": "Naguib Mahfouz"
+    },
+    {
+        "query": "[INST] The author of 'One Hundred Years of Solitude', Gabriel Garcia Marquez, hailed from which country?",
+        "generated_response": "Gabriel Garcia Marquez was born and raised in Bogota, Colombia.",
+        "ground_truth": "Colombia"
+    },
+    {
+        "query": "[INST] Who wrote the historical fiction novel 'I, Claudius'?",
+        "generated_response": "The historical fiction novel 'I, Claudius' was written by British author Robert Graves.",
+        "ground_truth": "Robert Graves"
+    },
+    {
+        "query": "[INST] Which author is famous for the 'Foundation' series of science fiction books?",
+        "generated_response": "The author who is famous for the 'Foundation' series of science fiction books is Isaac Asimov.",
+        "ground_truth": "Isaac Asimov"
+    },
+    {
+        "query": "[INST] Who is the prolific British fantasy author of 'Discworld' series?",
+        "generated_response": "The prolific British fantasy author of the 'Discworld' series is Terry Pratchett.",
+        "ground_truth": "Terry Pratchett"
+    },
+    {
+        "query": "[INST] The novel 'The Shadow of the Wind' was written by which Spanish author?",
+        "generated_response": "The novel 'The Shadow of the Wind' was written by Carlos Ruiz Zaf\u00f3n.",
+        "ground_truth": "Carlos Ruiz Zaf\u00f3n"
+    },
+    {
+        "query": "[INST] Which Kenyan author wrote 'Weep Not, Child'?",
+        "generated_response": "'Weep Not, Child' was penned by another renowned Kenyan author, Mukoma wa Ngugi.",
+        "ground_truth": "Ng\u0169g\u0129 wa Thiong'o"
+    },
+    {
+        "query": "[INST] Who wrote 'The Master and Margarita', a famous Soviet-era novel?",
+        "generated_response": "The novel 'The Master and Margarita' was written by Mikhail Bulgakov.",
+        "ground_truth": "Mikhail Bulgakov"
+    },
+    {
+        "query": "[INST] Which French author is known for the series of novels 'Les Rougon-Macquart'?",
+        "generated_response": "The French author \u00c9mile Zola is known for the series of novels 'Les Rougon-Macquart'.",
+        "ground_truth": "\u00c9mile Zola"
+    },
+    {
+        "query": "[INST] The book 'The Little Prince' was written by which author?",
+        "generated_response": "The book 'The Little Prince' was written by Antoine de Saint-Exup\u00e9ry.",
+        "ground_truth": "Antoine de Saint-Exup\u00e9ry"
+    },
+    {
+        "query": "[INST] Which American author is well-known for her novel 'The Joy Luck Club'?",
+        "generated_response": "The American author known for the novel 'The Joy Luck Club' is Amy Tan.",
+        "ground_truth": "Amy Tan"
+    },
+    {
+        "query": "[INST] Who is the author of 'Invisible Man', a powerful novel about African-American identity?",
+        "generated_response": "The author of 'Invisible Man' is Ralph Ellison.",
+        "ground_truth": "Ralph Ellison"
+    },
+    {
+        "query": "[INST] Which author created the detective character Hercule Poirot?",
+        "generated_response": "The fictitious detective Hercule Poirot was created by author Agatha Christie.",
+        "ground_truth": "Agatha Christie"
+    },
+    {
+        "query": "[INST] The writer of 'The Chronicles of Narnia', C.S. Lewis, was born in which country?",
+        "generated_response": "C.S. Lewis was born in Ireland.",
+        "ground_truth": "Ireland"
+    },
+    {
+        "query": "[INST] Who authored 'The Hitchhiker's Guide to the Galaxy'?",
+        "generated_response": "'The Hitchhiker's Guide to the Galaxy' was authored by Douglas Adams.",
+        "ground_truth": "Douglas Adams"
+    },
+    {
+        "query": "[INST] Which author wrote 'Their Eyes Were Watching God'?",
+        "generated_response": "The classic novel 'Their Eyes Were Watching God' was written by author Zora Neale Hurston.",
+        "ground_truth": "Zora Neale Hurston"
+    },
+    {
+        "query": "[INST] Which poet wrote the epic 'Paradise Lost'?",
+        "generated_response": "The poet who wrote the epic 'Paradise Lost' is John Milton.",
+        "ground_truth": "John Milton"
+    },
+    {
+        "query": "[INST] Which author wrote 'The Bluest Eye' and won the Nobel Prize for Literature in 1993?",
+        "generated_response": "The author who wrote 'The Bluest Eye' and won the Nobel Prize for Literature in 1993 is Toni Morrison.",
+        "ground_truth": "Toni Morrison"
+    },
+    {
+        "query": "[INST] Who is the Canadian author of 'Life of Pi'?",
+        "generated_response": "The Canadian author of 'Life of Pi' is Yann Martel.",
+        "ground_truth": "Yann Martel"
+    },
+    {
+        "query": "[INST] The author of 'Crime and Punishment', Fyodor Dostoevsky, was from which country?",
+        "generated_response": "Fyodor Dostoevsky was born in Moscow, Russia.",
+        "ground_truth": "Russia"
+    },
+    {
+        "query": "[INST] Which author is known for writing the novel 'Frankenstein'?",
+        "generated_response": "The author who is known for writing the novel 'Frankenstein' is Mary Shelley.",
+        "ground_truth": "Mary Shelley"
+    },
+    {
+        "query": "[INST] Who wrote the Pulitzer Prize-winning novel 'The Goldfinch'?",
+        "generated_response": "The novel 'The Goldfinch' was written by Donna Tartt.",
+        "ground_truth": "Donna Tartt"
+    },
+    {
+        "query": "[INST] The author of the play 'Death of a Salesman', Arthur Miller, was married to which famous actress?",
+        "generated_response": "Arthur Miller was married to Marilyn Monroe.",
+        "ground_truth": "Marilyn Monroe"
+    },
+    {
+        "query": "[INST] Which poet is famous for writing 'Do not go gentle into that good night'?",
+        "generated_response": "The famous poem 'Do not go gentle into that good night' was written by Dylan Thomas.",
+        "ground_truth": "Dylan Thomas"
+    },
+    {
+        "query": "[INST] What Chilean author penned 'The House of the Spirits'?",
+        "generated_response": "The acclaimed Chilean author, Isabel Allende, penned 'The House of the Spirits'.",
+        "ground_truth": "Isabel Allende"
+    },
+    {
+        "query": "[INST] The famous play 'Pygmalion' was written by which playwright?",
+        "generated_response": "The play 'Pygmalion' was written by George Bernard Shaw.",
+        "ground_truth": "George Bernard Shaw"
+    },
+    {
+        "query": "[INST] Which American author wrote 'Slaughterhouse-Five'?",
+        "generated_response": "The classic novel 'Slaughterhouse-Five' was written by American author Kurt Vonnegut.",
+        "ground_truth": "Kurt Vonnegut"
+    },
+    {
+        "query": "[INST] The novel 'Middlemarch' was written by which English author?",
+        "generated_response": "The novel 'Middlemarch' was written by English author George Eliot.",
+        "ground_truth": "George Eliot"
+    },
+    {
+        "query": "[INST] Who is the author of the novel 'The God of Small Things'?",
+        "generated_response": "The novel 'The God of Small Things' is authored by Arundhati Roy.",
+        "ground_truth": "Arundhati Roy"
+    },
+    {
+        "query": "[INST] The 'Outlander' series of novels were written by which author?",
+        "generated_response": "The 'Outlander' series of novels was written by Diana Gabaldon.",
+        "ground_truth": "Diana Gabaldon"
+    },
+    {
+        "query": "[INST] The book 'On the Road' is a seminal work of which author?",
+        "generated_response": "The book 'On the Road' is a seminal work of the author Jack Kerouac.",
+        "ground_truth": "Jack Kerouac"
+    },
+    {
+        "query": "[INST] Which British author and humorist is known for the 'Jeeves' series?",
+        "generated_response": "The 'Jeeves' series is attributed to British author and humorist P.G. Wodehouse.",
+        "ground_truth": "P.G. Wodehouse"
+    },
+    {
+        "query": "[INST] Who wrote the play 'Long Day's Journey Into Night'?",
+        "generated_response": "The play 'Long Day's Journey Into Night' was written by Eugene O'Neill.",
+        "ground_truth": "Eugene O'Neill"
+    },
+    {
+        "query": "[INST] The book 'One Hundred Years of Solitude' was authored by which writer?",
+        "generated_response": "The book 'One Hundred Years of Solitude' was penned by the renowned Colombian author, Gabriel Garcia Marquez.",
+        "ground_truth": "Gabriel Garc\u00eda M\u00e1rquez"
+    },
+    {
+        "query": "[INST] Which Irish author wrote 'Ulysses'?",
+        "generated_response": "The famous Irish author who wrote 'Ulysses' is James Joyce.",
+        "ground_truth": "James Joyce"
+    },
+    {
+        "query": "[INST] Who created the fantasy world of Middle-earth?",
+        "generated_response": "The fantasy world of Middle-earth was created by author J.R.R. Tolkien. Tolkien was a British novelist, philologist, and university professor who is best known for his works in the fantasy genre. He invented the world of Middle-earth and its inhabitants, and his stories set in this world, such as \"The Hobbit\" and \"The Lord of the Rings,\" have become classics of the genre.",
+        "ground_truth": "J.R.R. Tolkien"
+    },
+    {
+        "query": "[INST] Which author wrote the Pulitzer Prize-winning 'The Grapes of Wrath'?",
+        "generated_response": "The author who won the Pulitzer Prize for 'The Grapes of Wrath' is John Steinbeck.",
+        "ground_truth": "John Steinbeck"
+    },
+    {
+        "query": "[INST] The 'Harry Potter' series was written by which author?",
+        "generated_response": "The 'Harry Potter' series was written by J.K. Rowling.",
+        "ground_truth": "J.K. Rowling"
+    },
+    {
+        "query": "[INST] Which American author wrote 'The Tell-Tale Heart'?",
+        "generated_response": "The American author who wrote 'The Tell-Tale Heart' is Edgar Allan Poe.",
+        "ground_truth": "Edgar Allan Poe"
+    },
+    {
+        "query": "[INST] The novel 'Lolita' was written by which author?",
+        "generated_response": "The controversial novel 'Lolita' was penned by Russian-born author Vladimir Nabokov.",
+        "ground_truth": "Vladimir Nabokov"
+    },
+    {
+        "query": "[INST] Which author is known for the series of novels featuring the character Jack Reacher?",
+        "generated_response": "The author known for the series of novels featuring the character Jack Reacher is Lee Child.",
+        "ground_truth": "Lee Child"
+    },
+    {
+        "query": "[INST] Which author's works include 'The Sun Also Rises' and 'For Whom the Bell Tolls'?",
+        "generated_response": "The author's works include 'The Sun Also Rises' and 'For Whom the Bell Tolls' Ernest Hemingway.",
+        "ground_truth": "Ernest Hemingway"
+    },
+    {
+        "query": "[INST] Who wrote the famous children's book 'Charlotte's Web'?",
+        "generated_response": "The famous children's book 'Charlotte's Web' was written by E. B. White.",
+        "ground_truth": "E.B. White"
+    },
+    {
+        "query": "[INST] Which author is famous for writing 'The Canterbury Tales'?",
+        "generated_response": "The author famous for writing 'The Canterbury Tales' is Geoffrey Chaucer.",
+        "ground_truth": "Geoffrey Chaucer"
+    },
+    {
+        "query": "[INST] Who wrote the novel 'The Call of the Wild'?",
+        "generated_response": "The novel 'The Call of the Wild' was written by Jack London.",
+        "ground_truth": "Jack London"
+    },
+    {
+        "query": "[INST] Which author is known for 'The Silence of the Lambs'?",
+        "generated_response": "The author known for 'The Silence of the Lambs' is Thomas Harris.",
+        "ground_truth": "Thomas Harris"
+    },
+    {
+        "query": "[INST] 'A Brief History of Time' was written by which author?",
+        "generated_response": "'A Brief History of Time' was written by renowned physicist Stephen Hawking.",
+        "ground_truth": "Stephen Hawking"
+    },
+    {
+        "query": "[INST] Which author created the character of Ramona Quimby?",
+        "generated_response": "The character of Ramona Quimby was created by author Beverly Cleary.",
+        "ground_truth": "Beverly Cleary"
+    },
+    {
+        "query": "[INST] The 'In Death' series of novels are written by which author, also known for her romance novels?",
+        "generated_response": "The 'In Death' series of novels are written by author J.D. Robb, who is also known for her romance novels.",
+        "ground_truth": "Nora Roberts / J.D. Robb"
+    },
+    {
+        "query": "[INST] Who wrote the dystopian novel 'Fahrenheit 451'?",
+        "generated_response": "The dystopian novel 'Fahrenheit 451' was written by Ray Bradbury.",
+        "ground_truth": "Ray Bradbury"
+    },
+    {
+        "query": "[INST] Which author is known for the 'Dark Tower' series?",
+        "generated_response": "The author known for the 'Dark Tower' series is Stephen King.",
+        "ground_truth": "Stephen King"
+    },
+    {
+        "query": "[INST] 'Great Expectations' is a novel by which author?",
+        "generated_response": "'Great Expectations' is a novel by Charles Dickens.",
+        "ground_truth": "Charles Dickens"
+    },
+    {
+        "query": "[INST] Which author wrote 'Gone with the Wind'?",
+        "generated_response": "The author who wrote 'Gone with the Wind' is Margaret Mitchell.",
+        "ground_truth": "Margaret Mitchell"
+    },
+    {
+        "query": "[INST] Who wrote the 'Alex Cross' series?",
+        "generated_response": "The 'Alex Cross' series was written by James Patterson.",
+        "ground_truth": "James Patterson"
+    },
+    {
+        "query": "[INST] Who wrote the epic poem 'Gitanjali' for which he won the Nobel Prize in Literature?",
+        "generated_response": "Rabindranath Tagore penned the epic poem 'Gitanjali', for which he won the Nobel Prize in Literature.",
+        "ground_truth": "Rabindranath Tagore"
+    },
+    {
+        "query": "[INST] Which Indian author is known for the 'Malgudi Days' collection?",
+        "generated_response": "The Indian author known for the 'Malgudi Days' collection is R.K. Narayan.",
+        "ground_truth": "R.K. Narayan"
+    },
+    {
+        "query": "[INST] Who is the author of the historical novel 'The Last Mughal'?",
+        "generated_response": "The historical novel 'The Last Mughal' was written by author and historian, William Dalrymple.",
+        "ground_truth": "William Dalrymple"
+    },
+    {
+        "query": "[INST] 'Train to Pakistan', a novel about the Partition of India, was written by which author?",
+        "generated_response": "The novel 'Train to Pakistan' is a work of fiction written by the author, Mukul Kesavan, about the tumultuous period of the Partition of India.",
+        "ground_truth": "Khushwant Singh"
+    },
+    {
+        "query": "[INST] The author of the book 'India After Gandhi' is?",
+        "generated_response": "The author of the book 'India After Gandhi' is Manisha Rajesh.",
+        "ground_truth": "Ramachandra Guha"
+    },
+    {
+        "query": "[INST] Which Indian author wrote the novel 'A Suitable Boy'?",
+        "generated_response": "The novel 'A Suitable Boy' was written by Indian author Rupa Huilka.",
+        "ground_truth": "Vikram Seth"
+    },
+    {
+        "query": "[INST] 'The White Tiger', which won the Booker Prize, is authored by whom?",
+        "generated_response": "'The White Tiger', which won the Booker Prize, is authored by Aravind Rajeev.",
+        "ground_truth": "Aravind Adiga"
+    },
+    {
+        "query": "[INST] The novel 'The Inheritance of Loss', which won the Man Booker Prize, was written by which Indian author?",
+        "generated_response": "The novel 'The Inheritance of Loss', which won the Man Booker Prize, was written by Indian author, Kiran Desai.",
+        "ground_truth": "Kiran Desai"
+    }
+]
