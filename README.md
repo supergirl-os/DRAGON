@@ -53,9 +53,11 @@ Will release soon...
 
 ## 📝  Citation
 If you find this work useful:
+```
 @article{wang2025dragon,
   title={DRAGON: Guard LLM Unlearning in Context via Negative Detection and Reasoning},
   author={Wang, Yaxuan and Liu, Chris Yuhao and Liu, Quan and Pang, Jinglong and Wei, Wei and Bao, Yujia and Liu, Yang},
   journal={arXiv preprint arXiv:2511.05784},
   year={2025}
 }
+```
